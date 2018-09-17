@@ -46,7 +46,7 @@ header {
   font-size: 35px;
 }
 
-/* Total（仮）*/
+/* 平均（仮）*/
 .total {
   height: 35px;
   width: 100%;
@@ -65,6 +65,7 @@ header {
   width: 100%;
   background-color: #ddd;
 }
+
 
 
 /* modal */

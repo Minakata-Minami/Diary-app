@@ -51,10 +51,10 @@ function getToday() {
    </div>
   </div>
 
-  <!--total(仮) -->
+  <!--平均(仮) -->
   <div class = "total">
     <dic class = "container">
-      <p>Average<span>115</span>pt</p>
+      <p>Average<span>68</span>pt</p> <!-- 一週間の平均点を表示させたい　-->
     </div>
   </div>
 
@@ -75,7 +75,7 @@ function getToday() {
   <!-- diary -->
   <div class = "diary">
       <div class = "point">
-        <p><a id = "number">35</a>pt</p>
+        <p><a id = "number">？</a>pt</p>
         <div class = "day">
         <script type="text/javascript">
 <!--
@@ -107,12 +107,13 @@ document.write(msg[week]);
 // -->
 </script>
 </div>
+
       </div>
       <div class = "comment">
           <p class = "comment-title">comment:</p>
-          <p>スマホ落として画面が割れたから</p>
+          <p>入力した文章をここに表示させたい</p>
           <script src = "diary-app.js">
-          document.write("<p>"+ "diary_text"  +"</p>");
+          document.write("<p>"+ "diary_text"  +"</p>"); //入力画面で入力した文章にしたい、色々してみましたが無理でした
           </script>
       </div>
   </div>
@@ -144,10 +145,10 @@ document.write(msg[week]);
     <hr>
     <div class = "write-area">
       <form name = "post">
-      <p>今日は何点？</P>
+      <p>今日は何点？</P> <!--ここに入力した数字をグラフに入れたい（とりあえず一週間分、一週間したら全部消す）-->
         <input class = "point-write"><p></p>
       <p>それはなぜ？</p>
-      <input type = "text" name = "diary-text" value = "">
+      <input type = "text" name = "diary-text" value = ""> <!--ここに入力した文章を保存、出力したい-->
       <p></p>
       <input class = "write-submit write-modal-close strage-btn" type="submit" value = "保存">
       </form>
