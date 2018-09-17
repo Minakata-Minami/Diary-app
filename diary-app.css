@@ -1,0 +1,183 @@
+* {
+  font-family: "Lucida Grande";
+  padding: 0px;
+  margin: 0px;
+}
+
+/*.container {
+  width: 100%;
+  padding: 0 0;
+  margin: 0 auto;
+} */
+
+/* header */
+header {
+  height: 40px;
+  width: 100%;
+  background-color: #ddd;
+  border-bottom: 1px solid #333;
+}
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+}
+
+.plus-icon {
+  padding: 12px;
+}
+.search-icon {
+  padding: 12px;
+}
+.cog-icon {
+  padding: 12px;
+}
+/* Today (仮) */
+.today {
+  height: 60px;
+  width: 100%;
+  padding-top: 10px;
+  background-color: #ddd;
+  font-size: 25px;
+}
+.today span{
+  padding-left: 10px;
+  font-size: 35px;
+}
+
+/* Total（仮）*/
+.total {
+  height: 35px;
+  width: 100%;
+  padding-bottom: 10px;
+  background-color: #ccc;
+  font-size: 25px;
+}
+.total span{
+  padding-left: 8px;
+  font-size: 40px;
+}
+/* graph */
+.graph {
+  margin-right: 100px;
+  height: 250px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+
+/* modal */
+/* 設定画面*/
+.setup-modal{
+  position: absolute;
+  background-color: #FFF;
+  width: 40%;
+  height: 100%;
+  z-index: 100;
+  top: 0;
+  left: 60%;
+  border-left: 1px solid #999;
+  display: none;
+}
+.setup-modal p{
+  padding: 10px;
+}
+.profile-btn{
+  border-bottom: 1px solid #999;
+}
+.notification-btn{
+  border-bottom: 1px solid #999;
+}
+.angle-icon, .angle-icon2{
+  float: right;
+}
+.setup-modal-close{
+  position: absolute;
+  top: 95%;
+  left:85%;
+}
+/* ユーザ情報画面 */
+.profile-modal{
+  display: none;
+}
+/* 新規作成画面 */
+.write-modal{
+  position: absolute;
+  background-color: #FFF;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  top: 0;
+  display: none;
+}
+.write-title{
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+.times-btn{
+  color: #484748;
+  font-size: 20px;
+  float: right;
+  padding-top: 10px;
+  padding-right: 30px
+}
+hr{
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #bbb inset;
+}
+.write-area{
+  padding-top: 20px;
+  padding-left: 10%;
+}
+input, textarea {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size:18px;
+  border: 1px solid #dee7ec;
+}
+.point-write{
+  width: 40%;
+}
+textarea{
+  height: 200px;
+}
+.write-submit{
+  color: #484748;
+}
+/* 日記 */
+.point{
+  float: left;
+  width: 25%;
+  background-color: #ccc;
+}
+.point p{
+  padding: 10px 0 0 10px;
+}
+.point a{
+  font-size: 40px;
+}
+.day{
+  font-size: 20px;
+  padding-left: 10px;
+}
+.comment{
+  position: absolute;
+  width: 75%;
+  height: 50%;
+  left: 25%;
+  background-color: #ddd;
+  padding: 10px;
+}
+.comment-box{
+
+}
+.comment-title{
+  font-size: 20px;
+  padding-bottom: 5px;
+}
